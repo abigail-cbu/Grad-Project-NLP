@@ -1,0 +1,4 @@
+{'sight': True, 'elephant': True, 'potatoes': True, 'sneezed': True}
+{'studio': True, 'bats': True, 'talk': True, 'another': True, 'via': True, 'stuff': True, 'sight': True, 'going': True, 'bat': True, 'sneeze': True, 'echolocation': True, 'see': True, 'ever': True}
+{'studio': True, 'bats': True, 'batabout': True, 'another': True, 'via': True, 'ev': True, 'echolocation': True, 'see': True}
+{'studio': True, 'wondering': True, 'door': True, 'opened': True}
