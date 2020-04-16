@@ -121,15 +121,16 @@ def main():
 #    
     
 
-    start_time = time.time()
-    #print()
-    p_06_auto_encoding_scikit.test()
-    p_06_auto_encoding_scikit.scikit_fq(corpus_normalized)
-    print('one hot')
-    p_06_auto_encoding_scikit.scikit_one_hot(corpus_normalized)
-    print('TF-IDF')
-    p_06_auto_encoding_scikit.scikit_tf_idf(corpus_normalized)#corpus_normalized)
-    print("=====p_06_auto_encoding_nltk--- %s seconds ---\n" % (time.time() - start_time))
+### SCIKIT is DONE
+#    start_time = time.time()
+#    #print()
+#    p_06_auto_encoding_scikit.test()
+#    p_06_auto_encoding_scikit.scikit_fq(corpus_normalized)
+#    print('one hot')
+#    p_06_auto_encoding_scikit.scikit_one_hot(corpus_normalized)
+#    print('TF-IDF')
+#    p_06_auto_encoding_scikit.scikit_tf_idf(corpus_normalized)#corpus_normalized)
+#    print("=====p_06_auto_encoding_nltk--- %s seconds ---\n" % (time.time() - start_time))
 
 
 
