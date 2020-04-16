@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan 24 11:21:55 2020
+Updated on 4/15/2020
 
-@author: acorso
+@author: acorso and alu
 """
 
 import p_02_auto_corpus_loader
