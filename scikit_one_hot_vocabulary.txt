@@ -1,0 +1,1 @@
+{'bats': 3, 'talk': 18, 'batabout': 2, 'another': 0, 'via': 19, 'wondering': 20, 'sight': 13, 'going': 9, 'bat': 1, 'door': 4, 'echolocation': 5, 'see': 12, 'opened': 10, 'studio': 16, 'ev': 7, 'stuff': 17, 'potatoes': 11, 'elephant': 6, 'sneezed': 15, 'sneeze': 14, 'ever': 8}
