@@ -50,7 +50,7 @@ def scikit_one_hot(corpus_one):
     print('scikit_one_hot')
     ##print(corpus_one) ##don't need this anymore :)
     # write to single file
-    f = open('scikit_one_hot.txt', w+')
+    f = open('scikit_one_hot.txt', 'w+')
     f.write(str(corpus_one))
     f.close()
     #corpus_one = nltk.sent_tokenize(corpus_one)
