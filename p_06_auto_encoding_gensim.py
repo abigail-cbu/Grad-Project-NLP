@@ -43,7 +43,7 @@ def gensim_fq(corpus_one):
         
     f = open(gensimFileName, 'a+')
     f.write("\n" + str(vectors_final_gensim))
-    f.close
+    f.close()
     #"""
 
 
@@ -61,7 +61,7 @@ def gensim_one_hot(corpus_one):
         
     f = open(gensimFileName, 'a+')
     f.write("\n" + str(vectors_final_gensim))
-    f.close
+    f.close()
 
 
 def gensim_tf_idf(corpus_one):
@@ -73,14 +73,14 @@ def gensim_tf_idf(corpus_one):
     vectors_final_gensim = [tfidf[lexicon.doc2bow(corpus_one_gensim)] for corpus_one_gensim in corpus_one]
     #print(vectors_final_gensim)
     print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
+    f = open(gensimFileName, 'a+')
     for x in vectors_final_gensim:
         print(x)
+        f.write("\n" + str(x))
         print()
         print()
-        
-    f = open(gensimFileName, 'a+')
-    f.write("\n" + str(vectors_final_gensim))
-    f.close
+          
+    f.close()
 
 
 
