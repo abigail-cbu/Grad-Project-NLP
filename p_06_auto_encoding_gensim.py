@@ -42,7 +42,7 @@ def gensim_fq(corpus_one):
         print(x)
         
     f = open(gensimFileName, 'a+')
-    f.write(str(vectors_final_gensim))
+    f.write("\n" + str(vectors_final_gensim))
     f.close
     #"""
 
@@ -60,7 +60,7 @@ def gensim_one_hot(corpus_one):
         print(x)
         
     f = open(gensimFileName, 'a+')
-    f.write(str(vectors_final_gensim))
+    f.write("\n" + str(vectors_final_gensim))
     f.close
 
 
@@ -79,7 +79,7 @@ def gensim_tf_idf(corpus_one):
         print()
         
     f = open(gensimFileName, 'a+')
-    f.write(str(vectors_final_gensim))
+    f.write("\n" + str(vectors_final_gensim))
     f.close
 
 
