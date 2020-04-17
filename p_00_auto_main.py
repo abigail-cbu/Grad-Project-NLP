@@ -135,10 +135,10 @@ def main():
 
 
     print()
-    #p_06_auto_encoding_gensim.test()
-    #p_06_auto_encoding_gensim.gensim_fq(corpus_normalized)
-    #p_06_auto_encoding_gensim.gensim_one_hot(corpus_normalized)
-    #p_06_auto_encoding_gensim.gensim_tf_idf(corpus_normalized)
+    p_06_auto_encoding_gensim.test()
+    p_06_auto_encoding_gensim.gensim_fq(corpus_normalized)
+    p_06_auto_encoding_gensim.gensim_one_hot(corpus_normalized)
+    p_06_auto_encoding_gensim.gensim_tf_idf(corpus_normalized)
     print('\n\n\n\n\n')
     
 

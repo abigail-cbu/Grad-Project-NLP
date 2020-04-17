@@ -12,11 +12,11 @@ import gensim
 '''Bengfort Page 57'''
 from collections import defaultdict ##Good import
 
+gensimFileName = 'gensim_vectors.txt'
 
 def test():
     print('gensim')
-    print('''**********************fq--Encoding--gensim**********************''')
-
+    
 
 def vectorize_gensim(doc):
     features = defaultdict(int)
@@ -40,6 +40,10 @@ def gensim_fq(corpus_one):
     print()
     for x in vectors_final_gensim:
         print(x)
+        
+    f = open(gensimFileName, 'a+')
+    f.write(str(vectors_final_gensim))
+    f.close
     #"""
 
 
@@ -54,7 +58,10 @@ def gensim_one_hot(corpus_one):
     print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
     for x in vectors_final_gensim:
         print(x)
-
+        
+    f = open(gensimFileName, 'a+')
+    f.write(str(vectors_final_gensim))
+    f.close
 
 
 def gensim_tf_idf(corpus_one):
@@ -70,6 +77,10 @@ def gensim_tf_idf(corpus_one):
         print(x)
         print()
         print()
+        
+    f = open(gensimFileName, 'a+')
+    f.write(str(vectors_final_gensim))
+    f.close
 
 
 
