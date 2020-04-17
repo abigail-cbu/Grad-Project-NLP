@@ -40,7 +40,7 @@ def scikit_fq(corpus_one):
     f.close()
     
     # add to existing global file
-    g = open(scikitFile, 'a')
+    g = open(scikitFile, 'a+')
     g.write("\n" + str(vectors_final_scikit))
     g.close()
     #"""
@@ -59,7 +59,7 @@ def scikit_one_hot(corpus_one):
     #     x = nltk.sent_tokenize(x)
 
     # add to existing global file
-    g = open(scikitFile, 'a')
+    g = open(scikitFile, 'a+')
     g.write("\n" + str(corpus_one))
 
     vectors_final_scikit_one_hot = CountVectorizer()
@@ -107,7 +107,7 @@ def scikit_tf_idf(corpus_one):
     f.close()
     
     # add to existing global file
-    g = open(scikitFile, 'a')
+    g = open(scikitFile, 'a+')
     g.write("\n" + str(corpus))
     g.close()
 
