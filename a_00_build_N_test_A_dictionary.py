@@ -52,7 +52,7 @@ print()##Print line break
 print(auto_dict)##Print the dictionary
 
 #Write the dictionary to file
-pickle.dump(auto_dict, file_open_write)
+pickle.dump(auto_dict, file_open_write, protocol=2)
 
 #Close dictionary file
 file_open_write.flush()

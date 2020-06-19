@@ -41,9 +41,10 @@ def load_corpus_dict(file_name, file_option):
         #print('=====================================================================')
 
     print('The number of documents is===============================>>', final_count_all)
-    return all_items_list
     file_dat.flush()##Flush for .dat file
     file_dat.close()##Close for .dat file
+
+    return all_items_list
 
 
 #Uncomment to test load_corpus_dict() function defined above
